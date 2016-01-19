@@ -1,0 +1,56 @@
+td, body, input, select, textarea, p {
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333333;
+}
+a {
+        text-decoration:none;
+        color: #207CC1;
+}
+#page {
+        width:990px;
+        margin: 0 auto 20px auto;
+        text-align: left;
+}
+#banner {
+        border-bottom: 1px solid #dddddd;
+}
+#content {
+        padding:1em;
+}
+
+a.btn-green-arrow { 
+	display:block;
+	float:left;
+	padding:5px 10px 5px 22px;
+	margin-bottom:5px;
+	line-height:20px;
+	font-size:18px;
+	font-weight:bold;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border:1px solid #f2ba12;
+	color:#222;
+	background: rgb(247,209,69);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmN2QxNDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmNWM1MTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(247,209,69,1) 50%, rgba(245,197,23,1) 50%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,rgba(247,209,69,1)), color-stop(50%,rgba(245,197,23,1)));
+	background: -webkit-linear-gradient(top,  rgba(247,209,69,1) 50%,rgba(245,197,23,1) 50%);
+	background: -o-linear-gradient(top,  rgba(247,209,69,1) 50%,rgba(245,197,23,1) 50%);
+	background: -ms-linear-gradient(top,  rgba(247,209,69,1) 50%,rgba(245,197,23,1) 50%);
+	background: linear-gradient(to bottom,  rgba(247,209,69,1) 50%,rgba(245,197,23,1) 50%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d145', endColorstr='#f5c517',GradientType=0 );
+}
+a.btn-green-arrow:hover {
+	text-decoration:none;
+}
+a.btn-green-arrow .arrow {
+	display:block;
+	min-height:18px;
+	background:transparent url(//cdn.oreilly.com/oreilly/images/btn-green-arrow-overlay.png) left center no-repeat;
+	margin:0 0 0 -25px;
+	padding:0 0 0 25px;
+}
+.red {
+        color:#ff0000;
+}
